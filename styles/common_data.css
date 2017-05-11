@@ -1,0 +1,160 @@
+.common-items {
+    float: left;
+    height: 37px;
+    padding-top: 1px;
+}
+
+.common-items li {
+    display: block;
+
+
+    margin-right: 15px;
+}
+
+.common-items a {
+    display: block;
+    color: grey;
+    font-size: 1em;
+    text-align: center;
+    height: 30px;
+    padding: 7px 3px 0 3px;    
+}
+
+.common-items a:hover {
+    color: black;
+}
+
+a.active-common-data-itm {
+    background-color: #ebebe4;
+    color: black;
+    border: 1px solid #7f9db9;
+    border-radius: 8px;
+    height: 28px;
+    padding: 6px 3px 0 3px;    
+}
+
+.common-data-menu {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.common-data-menu li {
+    float: left;
+}
+
+.common-data li {
+    float: left;
+}
+
+.common-items ul {
+    margin-left: -16px;
+}
+
+.fert-exp-menu .common-items ul {
+    margin-left: 0;
+}
+
+.common-data-list {
+    margin-top: 15px;
+}
+
+.common-data-list td {
+    overflow: hidden;
+    padding: 1px 3px 1px 3px;    
+}
+
+.common-data-list th {
+    padding: 2px 3px 2px 3px;
+}
+
+.common-data-list table th {
+    border: 1px solid #7f9db9; 
+    background-color: #ebebe4;
+}
+
+.common-data-list table td {
+    border-collapse: collapse;
+    border: 1px solid #7f9db9;
+}
+
+.common-data-list table a {
+    color: black;
+}
+
+.common-data-list-table {
+    width: 800px;
+}
+
+.previous-fert-costs-list {
+    margin-top: 15px;
+}
+
+.previous-fert-costs-list td {
+    overflow: hidden;
+    padding: 1px 3px 1px 3px;    
+}
+
+.previous-fert-costs-list th {
+    padding: 2px 3px 2px 3px;
+}
+
+.previous-fert-costs-list table th {
+    border: 1px solid #7f9db9; 
+    background-color: #ebebe4;
+}
+
+.previous-fert-costs-list table td {
+    border-collapse: collapse;
+    border: 1px solid #7f9db9;
+}
+
+.previous-fert-costs-menu {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.previous-fert-costs-menu li {
+    float: left;
+}
+
+.previous-fert-costs-menu .common-items {
+    margin-left: 10px;
+}
+
+.previous-fert-costs-list-table {
+    width: 800px;
+}
+
+.previous-fert-cost-form {
+    margin-top: 15px;
+}
+
+.previous-fert-cost-form td input {
+    box-sizing: border-box;
+    width: 250px;    
+}
+
+.previous-fert-cost-form td input.save-btn {
+    width: 80px;
+    margin-left: 78px;
+}
+
+.previous-fert-cost-form td input.cancel-btn {
+    width: 80px;
+}
+
+.previous-fert-cost-form-lb {
+    width: 135px;
+}
+
+.previous-fert-cost-form select {
+    width: 250px;
+}
+
+.common-data-list-table td {
+    overflow: hidden;
+    padding: 2px 3px 3px 3px;    
+
+}
+
+

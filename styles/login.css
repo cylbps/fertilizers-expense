@@ -1,0 +1,60 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0;}
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+html, body {
+    height: 100%;
+    font: 12px "Arial", sans-serif;     
+}
+
+.login {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 150px);
+    font: 12px "Arial", sans-serif;    
+}
+
+.login span {
+    font: bold 16px "Arial", sans-serif; 
+}
+
+.login input {
+    font: "Arial", sans-serif;
+}
+
+span.message {
+    font: bold 12px "Arial", sans-serif;
+    color: red;
+}
+
+.login fieldset {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.login legend {
+    font: bold 16px "Arial", sans-serif;
+}
+
+.head {
+    border-bottom: 1px solid #7f9db9;
+}
+
+.head h1 {
+    font-size: 2.2em;
+    margin-left: 16px;
+    height: 40px;
+}

@@ -1,0 +1,1025 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0;}
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+
+@media print {
+    .head {
+        display: none;
+    }
+
+    .fert-exp-menu {
+        display: none;
+    }
+
+    .check {
+        display: none;
+    }
+
+    th {
+        background-color: grey;
+    }
+
+
+}
+
+
+
+html, body {
+    height: 100%;
+    font: 12px "Arial", sans-serif;     
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.head {
+    border-bottom: 1px solid #7f9db9;
+}
+
+.head h1 {
+    font-size: 2.2em;
+    margin-left: 16px;
+    height: 40px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: grey;
+}
+
+.top-panel {
+    height: 40px;
+}
+
+.top-menu {
+    width: auto;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+}
+
+.top-panel a:hover {
+    background-color: #ebebe4;
+}
+
+.tools {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 3px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px;
+} 
+
+.tools a {
+    width: 32px;
+    height: 32px;    
+    display: block;
+    margin-left: 0;
+    text-decoration: none;
+    background: url(../images/setting_tools.png); 
+    border-radius: 8px;
+}
+
+.exit {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px;    
+} 
+
+.exit a {
+    width: 32px;
+    height: 32px;    
+    display: block;
+    margin-left: 0;
+    text-decoration: none;
+    background: url(../images/door_out.png); 
+    border-radius: 8px; 
+}
+
+.home {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px;     
+}
+
+.home a {
+    width: 32px;
+    height: 32px;    
+    display: block;
+    margin-left: 0;
+    text-decoration: none;
+    background: url(../images/house.png); 
+    border-radius: 8px;     
+}
+
+.main-menu {
+    height: 32px;
+}
+
+.main-menu li {
+    float: left;
+    list-style-type: none;
+    height: 32px;
+    margin-right: 1px;
+    margin-left: 1px;
+    border-top: 1px solid #7f9db9;
+    border-right: 1px solid #7f9db9;
+    border-left: 1px solid #7f9db9;
+    border-radius: 8px 8px 0 0;    
+}
+
+.main-menu li a {
+    text-decoration: none;
+    height: 24px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    border-radius: 8px 8px 0 0; 
+    color: inherit;
+}
+
+.main-menu li a:hover {
+    background-color: #F8F8FF;
+}
+
+.main-menu li a.active {
+    background-color: #ebebe4;
+}
+
+.content {
+    padding: 10px 18px 10px 18px;  
+}
+
+.tools-menu ul {
+    padding-left: 0;
+}
+
+.tools-menu ul li a {
+    color: dimgray;
+}
+
+.users-list {
+    margin-top: 5px;
+}
+
+.fert-exp-list {
+    margin-top: 15px;
+}
+
+.fert-exp-list td {
+    overflow: hidden;
+    padding: 1px 3px 1px 3px;    
+}
+
+.fert-exp-list th {
+    padding: 2px 3px 2px 3px;
+}
+
+.fert-exp-list table th {
+    border: 1px solid #7f9db9; 
+    background-color: #ebebe4;
+}
+
+.fert-exp-list table td {
+    border-collapse: collapse;
+    border: 1px solid #7f9db9;
+}
+
+.fert-dep-list {
+    margin-top: 15px;
+}
+
+.fert-dep-list td {
+    overflow: hidden;
+    padding: 1px 3px 1px 3px;    
+}
+
+.fert-dep-list th {
+    padding: 2px 3px 2px 3px;
+}
+
+.fert-dep-list table th {
+    border: 1px solid #7f9db9; 
+    background-color: #ebebe4;
+}
+
+.fert-dep-list table td {
+    border-collapse: collapse;
+    border: 1px solid #7f9db9;
+}
+
+.fert-dep-list table a {
+    color: black;
+}
+
+.fert-cultures-list {
+    margin-top: 15px;
+}
+
+.fert-cultures-list td {
+    overflow: hidden;
+    padding: 1px 3px 1px 3px;    
+}
+
+.fert-cultures-list th {
+    padding: 2px 3px 2px 3px;
+}
+
+.fert-cultures-list table th {
+    border: 1px solid #7f9db9; 
+    background-color: #ebebe4;
+}
+
+.fert-cultures-list table td {
+    border-collapse: collapse;
+    border: 1px solid #7f9db9;
+}
+
+.fert-field-list {
+    margin-top: 15px;
+}
+
+.fert-field-list td {
+    overflow: hidden;
+    padding: 1px 3px 1px 3px;    
+}
+
+.fert-field-list th {
+    padding: 2px 3px 2px 3px;
+}
+
+.fert-field-list table th {
+    border: 1px solid #7f9db9; 
+    background-color: #ebebe4;
+}
+
+.fert-field-list table td {
+    border-collapse: collapse;
+    border: 1px solid #7f9db9;
+}
+
+
+
+.fert-plans-list {
+    margin-top: 15px;
+}
+
+.fert-plans-list td {
+    overflow: hidden;
+    padding: 1px 3px 1px 3px;    
+}
+
+.fert-plans-list th {
+    padding: 2px 3px 2px 3px;
+}
+
+.fert-plans-list table th {
+    border: 1px solid #7f9db9; 
+    background-color: #ebebe4;
+}
+
+.fert-plans-list table td {
+    border-collapse: collapse;
+    border: 1px solid #7f9db9;
+}
+
+
+
+.fert-sowings-list {
+    margin-top: 15px;
+}
+
+.fert-sowings-list td {
+    overflow: hidden;
+    padding: 1px 3px 1px 3px;    
+}
+
+.fert-sowings-list th {
+    padding: 2px 3px 2px 3px;
+}
+
+.fert-sowings-list table th {
+    border: 1px solid #7f9db9; 
+    background-color: #ebebe4;
+}
+
+.fert-sowings-list table td {
+    border-collapse: collapse;
+    border: 1px solid #7f9db9;
+}
+
+.fert-fertilizers-list {
+    margin-top: 15px;
+}
+
+.fert-fertilizers-list td {
+    overflow: hidden;
+    padding: 1px 3px 1px 3px;    
+}
+
+.fert-fertilizers-list th {
+    padding: 2px 3px 2px 3px;
+}
+
+.fert-fertilizers-list table th {
+    border: 1px solid #7f9db9; 
+    background-color: #ebebe4;
+}
+
+.fert-fertilizers-list table td {
+    border-collapse: collapse;
+    border: 1px solid #7f9db9;
+}
+
+.users-list table {
+
+}
+
+.users-list table td  {
+    overflow: hidden;
+    padding: 2px 3px 2px 3px;
+}
+
+.users-list table th {
+    padding: 2px 3px 2px 3px;
+}
+
+.users-list table th {
+    border: 1px solid gray; 
+    background-color: buttonface;
+}
+
+.users-list table td {
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+.edit-action-btn {
+    text-decoration: none;
+    display: block;
+    float: left;
+    height: 16px;
+    padding-left: 19px;
+    padding-top: 2px;
+    background: url(../images/bullet_edit.png) no-repeat; 
+}
+
+.del-action-btn {
+    text-decoration: none;
+    display: block;
+    height: 16px;
+    padding-left: 19px;
+    padding-top: 2px;
+    background: url(../images/delete.png) no-repeat; 
+}
+
+.users-list table th  {
+    width: 300px;
+}
+
+.action-btn {
+    float: left;
+    margin-right: 12px;
+}
+
+.fert-exp-menu {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.fert-exp-menu li {
+    float: left;
+}
+
+.fert-menu {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.fert-exp-menu li {
+    float: left;
+}
+
+a.new-user {
+    height: 27px;
+    width: 130px;
+    display: block;
+    padding-top: 10px;
+    padding-left: 40px;
+    background: url(../images/add.png) no-repeat; 
+    border: 1px solid gainsboro;
+    border-radius: 8px; 
+    text-decoration: none;
+    color: inherit;
+    background-position: 3px 3px;
+}
+
+a.new-user:hover {
+    background-color: azure;    
+}
+
+a.new-expense {
+    height: 27px;
+    width: 130px;
+    display: block;
+    padding-top: 10px;
+    padding-left: 40px;
+    background: url(../images/add.png) no-repeat; 
+    border: 1px solid gainsboro;
+    border-radius: 8px; 
+    text-decoration: none;
+    color: inherit;
+    background-position: 3px 3px;    
+}
+
+a.new-expense:hover {
+    background-color: #F8F8FF;    
+}
+
+.fert-exp-form {
+    margin-top: 15px;
+}
+
+.fert-exp-form option {
+    margin: 0;
+    padding: 0;
+}
+
+.fert-exp-form td select {
+    width: 250px;
+}
+
+.fert-exp-form td input {
+    box-sizing: border-box;
+    width: 250px;  
+}
+
+.fert-exp-form td input.save-btn {
+    width: 80px;
+    margin-left: 78px;
+}
+
+.fert-exp-form td input.cancel-btn {
+    width: 80px;
+}
+
+.fert-exp-form-lb {
+    width: 180px;
+}
+
+.fert-exp-form-input {
+    width: 250px;
+}
+
+
+
+.fert-exp-search-form {
+    margin-top: 15px;
+}
+
+.fert-exp-search-form option {
+    margin: 0;
+    padding: 0;
+}
+
+.fert-exp-search-form td select {
+    width: 250px;
+}
+
+.fert-exp-search-form td input {
+    box-sizing: border-box;
+    width: 250px;  
+}
+
+.fert-exp-search-form td input.search-expense-btn {
+    width: 80px;
+    margin-left: 78px;
+}
+
+.fert-exp-search-form td input.cancel-btn {
+    width: 80px;
+}
+
+.fert-exp-search-form-lb {
+    width: 80px;
+}
+
+.fert-exp-search-form-input {
+    width: 250px;
+}
+
+.fert-exp-search-form-lb-hidden {
+    display: none;
+}
+
+.fert-exp-search-form-input-hidden {
+    display: none;
+}
+
+.fert-sowing-form {
+    margin-top: 15px;
+}
+
+.fert-sowing-form option {
+    margin: 0;
+    padding: 0;
+}
+
+.fert-sowing-form td select {
+    width: 180px;
+}
+
+.fert-sowing-form td input {
+    box-sizing: border-box;
+    width: 180px;  
+}
+
+.fert-sowing-form td input.save-btn {
+    width: 80px;
+    margin-left: 8px;
+}
+
+.fert-sowing-form td input.cancel-btn {
+    width: 80px;
+}
+
+.fert-sowing-form-lb {
+    width: 95px;
+}
+
+.fert-sowing-form-input {
+    width: 170px;
+}
+
+
+
+
+.fert-plan-form {
+    margin-top: 15px;
+}
+
+.fert-plan-form option {
+    margin: 0;
+    padding: 0;
+}
+
+.fert-plan-form td select {
+    width: 200px;
+}
+
+.fert-plan-form td input {
+    box-sizing: border-box;
+    width: 200px;  
+}
+
+.fert-plan-form td input.save-btn {
+    width: 80px;
+    margin-left: 25px;
+}
+
+.fert-plan-form td input.cancel-btn {
+    width: 80px;
+}
+
+.fert-plan-form-lb {
+    width: 80px;
+}
+
+.fert-plan-form-input {
+    width: 200px;
+}
+
+.fert-plan-form td input.search-fert-plan-btn {
+    width: 80px;
+    margin-left: 25px;
+}
+
+
+.fert-field-form-lb {
+    width: 100px;
+}
+
+.fert-field-form-input {
+    width: 250px;
+}
+
+.fert-field-form {
+    margin-top: 15px;
+}
+
+.fert-field-form td select {
+    width: 250px;
+}
+
+.fert-dep-form {
+    margin-top: 15px;
+}
+
+.fert-dep-form td input {
+    box-sizing: border-box;
+    width: 250px;    
+}
+
+.fert-dep-form td input.save-btn {
+    width: 80px;
+    margin-left: 78px;
+}
+
+.fert-dep-form td input.cancel-btn {
+    width: 80px;
+}
+
+.fert-dep-form-lb {
+    width: 100px;
+}
+
+.fert-fertilizer-form {
+    margin-top: 15px;
+}
+
+.fert-fertilizer-form td input {
+    box-sizing: border-box;
+    width: 250px;    
+}
+
+.fert-fertilizer-form td input.save-btn {
+    width: 80px;
+    margin-left: 78px;
+}
+
+.fert-fertilizer-form td input.cancel-btn {
+    width: 80px;
+}
+
+.fert-fertilizer-form-lb {
+    width: 100px;
+}
+
+.fert-cult-form-lb {
+    width: 100px;
+}
+
+.fert-cult-form {
+    margin-top: 15px;
+}
+
+.fert-cult-form td input {
+    box-sizing: border-box;
+    width: 250px;    
+}
+
+.fert-cult-form td input.save-btn {
+    width: 80px;
+    margin-left: 78px;
+}
+
+.fert-cult-form td input.cancel-btn {
+    width: 80px;
+}
+
+
+.fert-field-form td input {
+    box-sizing: border-box;
+    width: 250px;    
+}
+
+.fert-field-form td input.save-btn {
+    width: 80px;
+    margin-left: 78px;
+}
+
+.fert-field-form td input.cancel-btn {
+    width: 80px;
+}
+
+
+.total_td {
+    font-weight: bold;
+}
+
+.total_fert_exp p {
+    font-weight: bold;
+    color: grey;
+}
+
+.fert-exp-list-table {
+    margin-bottom: 20px;
+}
+
+.fert-exp-list-table a {
+    color: black;
+}
+
+.fert-dev-td {
+    background-color: #FFC1C1;
+}
+
+.add-expense-btn {
+    float: left;
+    margin-right: 20px;
+}
+
+.other-items {
+    float: left;
+    height: 37px;
+    padding-top: 1px;
+}
+
+.other-items li {
+    display: block;
+
+
+    margin-right: 15px;
+}
+
+.other-items a {
+    display: block;
+    color: grey;
+    font-size: 1em;
+    text-align: center;
+    height: 30px;
+    padding: 7px 3px 0 3px;    
+}
+
+.other-items a:hover {
+    color: black;
+}
+
+.del-row-btn {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/del_min.png) no-repeat;
+    float: left;
+    margin-right: 4px;
+    padding: 2px;
+    background-position: 1px 2px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.del-row-btn:hover {
+    background-color: beige;  
+}
+
+.edit-row-btn {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/edit_min.png) no-repeat;
+    float: left;
+    padding: 2px;
+    background-position: -2px 0;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.edit-row-btn:hover {
+    background-color: beige;
+}
+
+.fert-references-list {
+    margin-top: 20px;
+}
+
+.fert-references-list a {
+    color: grey;
+}
+
+.fert-references-list a:hover {
+    color: black;
+}
+
+.actions-menu {
+    height: 39px;
+    float: left;
+}
+
+.actions-menu ul {
+    padding: 0;
+}
+
+.actions-menu ul li {
+    float: left;
+    margin-right: 5px;
+}
+
+.fert-departments-action {
+    height: 39px;
+    float: left;
+}
+
+.fert-departments-action ul {
+    padding: 0;
+}
+
+.fert-departments-action ul li {
+    float: left;
+    margin-right: 5px;
+}
+
+.fert-departments-action a:hover {
+    background-color: #ebebe4;
+}
+
+a.active-dep-other-itm {
+    background-color: #ebebe4;
+    color: black;
+    border: 1px solid #7f9db9;
+    border-radius: 8px;
+    height: 28px;
+    padding: 6px 3px 0 3px;
+}
+
+
+a.active-field-other-itm {
+    background-color: #ebebe4;
+    border: 1px solid #7f9db9;
+    border-radius: 8px;
+    color: black;
+    height: 28px;
+    padding: 6px 3px 0;
+}
+
+.add-btn {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/add.png) no-repeat; 
+    background-position: 1px 2px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px; 
+    color: inherit; 
+    margin-left: 0;
+}
+
+.actions-menu a:hover {
+    background-color: #ebebe4;
+}
+
+.edit-btn {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/bullet_edit.png) no-repeat; 
+    background-position: -3px -2px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px; 
+    color: inherit; 
+    margin-left: 0;
+}
+
+.search-btn {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/search_plus.png) no-repeat; 
+    background-position: 1px 2px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px; 
+    color: inherit; 
+    margin-left: 0;
+}
+
+.del-search-btn {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/search_minus.png) no-repeat; 
+    background-position: 1px 2px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px; 
+    color: inherit; 
+    margin-left: 0;
+}
+
+.delete-btn {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/delete.png) no-repeat; 
+    background-position: 1px 2px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px; 
+    color: inherit; 
+    margin-left: 0;
+}
+
+.uncheck-btn {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/check_box_uncheck.png) no-repeat; 
+    background-position: 1px 2px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px; 
+    color: inherit; 
+    margin-left: 0;
+}
+
+.check-btn {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/check_box.png) no-repeat; 
+    background-position: 1px 2px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px; 
+    color: inherit; 
+    margin-left: 0;
+}
+
+.print-btn {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/printer.png) no-repeat; 
+    background-position: 1px 2px;
+    border: 1px solid #7f9db9;
+    border-radius: 8px; 
+    color: inherit; 
+    margin-left: 0;
+}
+
+table {
+    font-size: 1em;
+}
+
+.check {
+    width: 15px;
+}
+
+.fert-exp-list-table, .fert-dep-list-table, .fert-field-list-table, .fert-cultures-list-table, .fert-sowings-list-table, .fert-plans-list-table {
+    min-width: 800px;
+}
+
+.split {
+    background-color: gray;
+    color: transparent;
+    float: left;
+    height: 34px;
+    margin-top: 2px;
+    width: 1px;
+}
+
+.message {
+    font: bold 12px "Arial", sans-serif;
+    color: red;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.errors {
+    color: red;
+    padding-left: 10px;
+}
+
+.fert-field-list-table a {
+    color: black;
+}
+
+.fert-cultures-list-table a {
+    color: black;
+}
+
+.fert-sowings-list-table a {
+    color: black;
+}
+
+.fert-plans-list-table a {
+    color: black;
+}
+
+.h-print {
+    display: none;
+}
+
+@media print {
+    .h-print {
+        display: block;
+    }
+}
+

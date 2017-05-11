@@ -1,0 +1,44 @@
+.sowing-seeds-menu {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.sowing-seeds-menu li {
+    float: left;
+}
+
+.sowing-seeds-menu li {
+    float: left;
+}
+
+.sowing-seeds-list {
+    margin-top: 15px;
+}
+
+.sowing-seeds-list td {
+    overflow: hidden;
+    padding: 1px 3px 1px 3px;    
+}
+
+.sowing-seeds-list th {
+    padding: 2px 3px 2px 3px;
+}
+
+.sowing-seeds-list table th {
+    border: 1px solid #7f9db9; 
+    background-color: #ebebe4;
+}
+
+.sowing-seeds-list table td {
+    border-collapse: collapse;
+    border: 1px solid #7f9db9;
+}
+
+.sow-seeds-list-table {
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+.sow-seeds-list-table a {
+    color: black;
+}
